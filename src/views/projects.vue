@@ -38,7 +38,7 @@ console.log(hoverone);
                 </div>
                 <div class=" lg:w-2/6  dark:border-white space-y-1 justify-end md:w-80 font-semibold h-72 md:h-fit ">
                 <div class="pl-8 ">
-                    <p class="text-3xl font-bold dark:text-white ">WORK</p>
+                    <p class="text-3xl font-bold dark:text-white">WORK</p>
                 </div>
                 <div class="border-2 border-black border-r-0 border-l-0 border-b-0 lg:w-full lg:h-64  dark:border-white   w-full md:w-full md:border-black space-y-3 font-semibold h-60  text-2xl overflow-y-scroll scrollbar-thin dark:text-white">      
                
