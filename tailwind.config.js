@@ -26,7 +26,8 @@ module.exports = {
     },
     fontFamily:{
       inter:["inter"],
-      textstyle:["Figtree"]
+      textstyle:["Figtree"],
+      body:["Raleway"]
     },
     screens:{
       sm:"640px",

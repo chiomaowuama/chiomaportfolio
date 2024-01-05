@@ -18,8 +18,9 @@ console.log(hoverone);
             <heading />           
             <div class="flex flex-col lg:flex-row h-5/6 justify-between  "> 
                 <navigation />    
-          <div class=" w-full  lg:w-4/6   pb-1 pt-1 pr-6 flex  justify-end  dark:border-white border-l-0 border-r-0 border-b-0   ">
-            <div class="  lg:justify-center   hidden  lg:block lg:w-5/6">
+                <!-- border-l-0 border-r-0 border-b-0  -->
+                <div class=" w-full  lg:w-4/6   pb-1 pt-1 pr-6 flex  justify-end self-end  dark:border-white     ">
+                <div class="  lg:justify-center   hidden  lg:block lg:w-5/6">
                 <div class="slides">
                     <div  class="slide_one">
                         <img src="../assets/testrun.jfif" alt="" srcset="" class="smooth rounded-t-3xl w-full   h-full  " :class="{ 'smooth-hover': hover }">
@@ -34,15 +35,15 @@ console.log(hoverone);
                         <img src="../assets/sectest.jfif" alt="" srcset="" class="smooth3 rounded-t-3xl w-5/6 mx-auto h-full" :class="{ 'smooth-hover3': hoverthree }">
                     </div>
                 </div>
-            </div>
-            <div class="  lg:w-2/6  dark:border-white space-y-1  w-80 md:w-96 font-semibold h-80">
-                <div class="pl-8 border-2 border-black dark:border-white border-r-0 border-l-0 border-t-0 ">
-                    <p class="text-3xl font-bold dark:text-white">WORK</p>
                 </div>
-                <div class="border-2 border-black border-r-0 border-l-0 border-b-0 lg:w-full lg:h-72  dark:border-white   w-full md:w-full md:border-black space-y-3 font-semibold h-80 text-2xl overflow-y-scroll scrollbar-thin dark:text-white">      
+                <div class=" lg:w-2/6  dark:border-white space-y-1 justify-end md:w-80 font-semibold h-72 md:h-fit ">
+                <div class="pl-8 ">
+                    <p class="text-3xl font-bold dark:text-white ">WORK</p>
+                </div>
+                <div class="border-2 border-black border-r-0 border-l-0 border-b-0 lg:w-full lg:h-64  dark:border-white   w-full md:w-full md:border-black space-y-3 font-semibold h-60  text-2xl overflow-y-scroll scrollbar-thin dark:text-white">      
                
-               <div class="flex flex-row-reverse py-2 ">
-                    <div id="facebookicon" class=" w-5/6" @mouseenter="hover = true" @mouseleave="hover = false" >
+               <div class="flex flex-row-reverse py-2 " @mouseenter="hover = true" @mouseleave="hover = false">
+                    <div id="facebookicon" class=" w-5/6"  >
                         <p class="pr-3 arrow " >Pickt</p>
                     </div>
                     <div id="onhoverfb" class=" w-1/6">
@@ -99,7 +100,7 @@ console.log(hoverone);
                     </div>  
                </div>
                 </div>
-            </div>
+                </div>
            
             <!-- <p class="w-32 md:w-52 lg:w-28 text-left  text-xl  md:text-3xl lg:text-base font-semibold md:font-semibold">i belive that consistency is key and with the right ammount of consistency stired with hardwork anything is possible</p> -->
           </div>

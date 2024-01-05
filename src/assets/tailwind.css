@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;700&display=swap');
+
 @tailwind base;
 
 @tailwind components;
 
 @tailwind utilities;
 
-
+body {
+    font-family: 'Raleway', sans-serif;
+}
 .movinggif{
     /* background-image: url("no-signal-tv.gif");
     background-repeat: no-repeat;
@@ -247,6 +251,17 @@ input:checked + label .svg.sun{
     transform: translateY(0);
     transition: all 1s ease;
 }
+/* the ninth */
+#onhoverfb9{
+    visibility: hidden;
+    transform: translateY(-10px);
+}
+
+#facebookicon9:hover ~ #onhoverfb9{
+    visibility: visible;
+    transform: translateY(0);
+    transition: all 1s ease;
+}
 /* fifth */
 #onhoverfb5{
     visibility: hidden;
@@ -276,7 +291,10 @@ input:checked + label .svg.sun{
     /* top:50%; */
     /* left:50%; */
     /* transform: translate(-50%, 50%); */
-    animation: myfirst 6s infinite linear;
+    animation: myfirst 20s infinite linear;
+}
+.spinimg:hover{
+    animation:pause;
 }
 @keyframes myfirst{
     0%{

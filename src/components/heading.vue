@@ -17,6 +17,6 @@ const toggleDark = useToggle(isDark);
             </label>
           </div>
         </div>
-        <p class="text-sm md:text-base font-inter  dark:text-white">Designer & Developer</p>
+        <p class="text-sm md:text-base   dark:text-white">Designer & Developer</p>
       </div>
 </template>

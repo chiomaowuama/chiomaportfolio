@@ -2,7 +2,7 @@
 </script>
 <template>
     <div class=" w-full  h-2/6 lg:w-2/6 lg:h-full">
-        <ul class=" space-y-2 md:space-y-4 text-xl md:text-3xl lg:text-2xl font-bold px-4 dark:text-white">
+        <ul class=" space-y-3 md:space-y-4 text-xl md:text-3xl lg:text-2xl font-bold px-4 dark:text-white">
             <router-link to="/" custom v-slot="{ href, navigate, isActive }">
               <li :class="{ 'dark:text-white': isActive }" class="">
                 <a v-if="!isActive" :href="href" @click="navigate">Home</a>

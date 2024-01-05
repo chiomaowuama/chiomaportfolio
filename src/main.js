@@ -2,6 +2,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
+import './assets/app.css'
 import './assets/tailwind.css'
 
 /* import the fontawesome core */
@@ -11,10 +12,10 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* import specific icons */
-import {faMoon, faSun, faArrowRight} from '@fortawesome/free-solid-svg-icons'
+import {faMoon, faSun, faArrowRight, faArrowDown} from '@fortawesome/free-solid-svg-icons'
 
 /* add icons to the library */
-library.add( faSun, faMoon, faArrowRight)
+library.add( faSun, faMoon, faArrowRight,faArrowDown)
 
 const app = createApp(App)
 app.component('font-awesome-icon', FontAwesomeIcon),
