@@ -16,7 +16,7 @@ const toggleDark = useToggle(isDark);
             <div class=" flex  flex-col lg:flex-row w-full self-end ">
               <div class=" lg:w-3/6  hidden  lg:flex justify-center  lg:justify-center items-center">
                 <!-- chnage this to a new picture -->
-                <!-- <img src="../assets/gele.enc" alt="" srcset="" class="w-28 md:w-48 lg:w-56 rounded-full  cursor-pointer border-2 border-dashed border-black p-2 dark:border-white" > -->
+                <img src="../assets/gele.jpeg" alt="" srcset="" class="w-28 md:w-48 lg:w-56 rounded-full  cursor-pointer border-2 border-dashed border-black p-2 dark:border-white" >
               </div>
               <!-- border-2 border-blue-800 lg:w-4/6 lg:h-full  dark:border-white   w-full md:w-full md:border-black space-y-3 font-semibold h-80 text-2xl overflow-y-scroll scrollbar-thin dark:text-white lg:flex lg:flex-col lg:justify-end -->
                 <div class="lg:w-3/6   dark:border-white   w-full md:w-full md:border-black overflow-y-scroll scrollbar-thin h-80 md:h-3/6 lg:h-80 space-y-3 ">      

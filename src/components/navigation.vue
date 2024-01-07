@@ -21,7 +21,16 @@
                 <span v-else>●</span>
               </li>
             </router-link>
-            <li>Contact</li>
+            <router-link to="/ContactUs" custom v-slot="{ href, navigate, isActive }">
+              <li :class="{ 'dark:text-white': isActive }" class="">
+                <a v-if="!isActive" :href="href" @click="navigate">Contact</a>
+                <span v-else>●</span>
+              </li>
+            </router-link>
+           
+           
+            
+            <!-- <li>Contact</li> -->
           </ul>
     </div>
 </template>

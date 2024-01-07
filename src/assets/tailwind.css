@@ -312,3 +312,15 @@ input:checked + label .svg.sun{
         transform: translate(-50%, -50%) rotate(360deg);
     }
 } */
+/* contactus page */
+.grow{
+    transition: 0.3 ease;
+   
+}
+.grow:hover{
+
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+}
+

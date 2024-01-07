@@ -14,7 +14,7 @@ const toggleDark = useToggle(isDark);
       <div class="flex flex-col lg:flex-row h-5/6 justify-between "> 
         <navigation />
           <div class=" w-full lg:w-4/6  py-8 pr-6 flex justify-end    ">
-            <p class="w-32 md:w-52 lg:w-28 text-left  text-xl  md:text-3xl lg:text-base font-semibold md:font-semibold self-end dark:text-white">i belive that consistency is key and with the right ammount of consistency stired with hardwork anything is possible</p>
+            <p class="w-32   md:w-52 lg:w-28 text-left  text-xl  md:text-3xl lg:text-base font-semibold md:font-semibold self-end dark:text-white">i belive that consistency is key and with the right ammount of consistency stired with hardwork anything is possible</p>
           </div>
       </div>
     </div>

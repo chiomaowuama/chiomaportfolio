@@ -15,6 +15,7 @@ module.exports = {
           '50%': { transform:'translateX(0)'},
           
         },
+        
        
       },
     },
