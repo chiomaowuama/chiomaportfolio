@@ -43,6 +43,26 @@ const toggleDark = useToggle(isDark);
                         </svg>
                     </a>
                 </li>
+                <li class="grow flex  justify-end ">
+                    <a href="#" class="flex flex-col ">
+                        <div id="facebookicon7" class="hover:pr-4 w-full flex justify-end" >
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50" class="w-9 h-9 ">
+                            <path d="M 5.5 7 C 3.019531 7 1 9.019531 1 11.5 L 1 11.925781 L 25 29 L 49 11.925781 L 49 11.5 C 49 9.019531 46.980469 7 44.5 7 Z M 6.351563 9 L 43.644531 9 L 25 22 Z M 1 14.027344 L 1 38.5 C 1 40.980469 3.019531 43 5.5 43 L 44.5 43 C 46.980469 43 49 40.980469 49 38.5 L 49 14.027344 L 43 18.296875 L 43 41 L 7 41 L 7 18.296875 Z"></path>
+                            </svg>
+                        </div>
+                        <div id="onhoverfb7" class=" w-5/6 flex justify-center  items-end">
+                            <p class="text-sm font-medium text-body align-bottom  p-0">chioma12198@gmail.com </p>
+                        </div>
+                    </a>
+                </li>
+                <!-- <li class="grow flex  hover:pr-2  justify-end ">
+                    <div id="facebookicon" class=" w-5/6"  >
+                        <p class="pr-3 arrow" >Pickt</p>
+                    </div>
+                    <div id="onhoverfb" class=" w-1/6">
+                        <font-awesome-icon icon="fa-solid fa-arrow-right" class="pr-3 arrow " />
+                    </div>  
+                </li> -->
             </ul>
             <ul class="hidden dark:block cursor-pointer socials w-32 md:w-52 lg:w-12 space-y-1 text-left  text-xl  md:text-3xl lg:text-base font-semibold md:font-semibold self-end dark:text-white  "> 
                 <li class="grow flex  hover:pr-2  justify-end">
@@ -73,7 +93,9 @@ const toggleDark = useToggle(isDark);
                         </svg>
                     </a>
                 </li>
+                
             </ul>
+            
 
           </div>
       </div>

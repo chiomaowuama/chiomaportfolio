@@ -251,17 +251,7 @@ input:checked + label .svg.sun{
     transform: translateY(0);
     transition: all 1s ease;
 }
-/* the ninth */
-#onhoverfb9{
-    visibility: hidden;
-    transform: translateY(-10px);
-}
 
-#facebookicon9:hover ~ #onhoverfb9{
-    visibility: visible;
-    transform: translateY(0);
-    transition: all 1s ease;
-}
 /* fifth */
 #onhoverfb5{
     visibility: hidden;
@@ -280,6 +270,28 @@ input:checked + label .svg.sun{
 }
 
 #facebookicon6:hover ~ #onhoverfb6{
+    visibility: visible;
+    transform: translateY(0);
+    transition: all 1s ease;
+}
+/* the seventh */
+#onhoverfb7{
+    visibility: hidden;
+    transform: translateX(15px);
+}
+
+#facebookicon7:hover ~ #onhoverfb7{
+    visibility: visible;
+    transform: translateY(0);
+    transition: all 1s ease;
+}
+/* the ninth */
+#onhoverfb9{
+    visibility: hidden;
+    transform: translateY(-10px);
+}
+
+#facebookicon9:hover ~ #onhoverfb9{
     visibility: visible;
     transform: translateY(0);
     transition: all 1s ease;

@@ -40,11 +40,11 @@ console.log(hoverone);
                 <div class="pl-8 ">
                     <p class="text-3xl font-bold dark:text-white">WORK</p>
                 </div>
-                <div class="border-2 border-black border-r-0 border-l-0 border-b-0 lg:w-full lg:h-64  dark:border-white   w-full md:w-full md:border-black space-y-3 font-semibold h-60  text-2xl overflow-y-scroll scrollbar-thin dark:text-white">      
+                <div class="border-2 border-black border-r-0 border-l-0 border-b-0 lg:w-full lg:h-64  cursor-pointer  dark:border-white   w-full md:w-full md:border-black space-y-3 font-semibold h-60  text-2xl overflow-y-scroll scrollbar-thin dark:text-white ">      
                
                <div class="flex flex-row-reverse py-2 " @mouseenter="hover = true" @mouseleave="hover = false">
                     <div id="facebookicon" class=" w-5/6"  >
-                        <p class="pr-3 arrow " >Pickt</p>
+                        <p class="pr-3 arrow" >Pickt</p>
                     </div>
                     <div id="onhoverfb" class=" w-1/6">
                         <font-awesome-icon icon="fa-solid fa-arrow-right" class="pr-3 arrow " />
