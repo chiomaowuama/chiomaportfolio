@@ -44,7 +44,9 @@ console.log(hoverone);
                
                <div class="flex flex-row-reverse py-2 " @mouseenter="hover = true" @mouseleave="hover = false">
                     <div id="facebookicon" class=" w-5/6"  >
-                        <p class="pr-3 arrow" >Pickt</p>
+                        <a href="https://jocular-hamster-8fad1d.netlify.app">
+                            <p class="pr-3 arrow" >Pickt</p>
+                        </a>
                     </div>
                     <div id="onhoverfb" class=" w-1/6">
                         <font-awesome-icon icon="fa-solid fa-arrow-right" class="pr-3 arrow " />
@@ -53,7 +55,9 @@ console.log(hoverone);
               
                <div class="flex flex-row-reverse py-2 " @mouseenter="hoverone = true" @mouseleave="hoverone = false">
                     <div id="facebookicon1" class=" w-5/6">
+                        <a href="https://darling-jalebi-45f0fd.netlify.app">
                         <p class="pr-3 arrow " >tropic-soles</p>
+                        </a>
                     </div>
                     <div id="onhoverfb1" class=" w-1/6">
                         <font-awesome-icon icon="fa-solid fa-arrow-right" class="pr-3 arrow " />
@@ -61,7 +65,9 @@ console.log(hoverone);
                </div>
                <div class="flex flex-row-reverse py-2 " @mouseenter="hovertwo = true" @mouseleave="hovertwo = false">
                     <div id="facebookicon2" class=" w-5/6">
+                        <a href="https://starlit-vacherin-f5823d.netlify.app">
                         <p class="pr-3 arrow " >dutiful</p>
+                        </a>
                     </div>
                     <div id="onhoverfb2" class=" w-1/6">
                         <font-awesome-icon icon="fa-solid fa-arrow-right" class="pr-3 arrow " />
