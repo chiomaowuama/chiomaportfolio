@@ -75,7 +75,9 @@ console.log(hoverone);
                </div>
                <div class="flex flex-row-reverse py-2 " @mouseenter="hoverthree = true" @mouseleave="hoverthree = false">
                     <div id="facebookicon3" class=" w-5/6">
-                        <p class="pr-3 arrow " >Food-web</p>
+                        <a href="https://poetic-lily-e02ce0.netlify.app">
+                            <p class="pr-3 arrow " >Food-web</p>
+                        </a>
                     </div>
                     <div id="onhoverfb3" class=" w-1/6">
                         <font-awesome-icon icon="fa-solid fa-arrow-right" class="pr-3 arrow " />
@@ -83,7 +85,9 @@ console.log(hoverone);
                </div>
                <div class="flex flex-row-reverse py-2 ">
                     <div id="facebookicon4" class=" w-5/6">
-                        <p class="pr-3 arrow " >Mega-stop</p>
+                        <a href="https://fabulous-khapse-1fb714.netlify.app">
+                            <p class="pr-3 arrow " >Mega-stop</p>
+                        </a>
                     </div>
                     <div id="onhoverfb4" class="0 w-1/6">
                         <font-awesome-icon icon="fa-solid fa-arrow-right" class="pr-3 arrow " />
@@ -99,7 +103,9 @@ console.log(hoverone);
                </div>
                <div class="flex flex-row-reverse py-2 ">
                     <div id="facebookicon6" class=" w-5/6">
-                        <p class="pr-3 arrow text-2xl" >Summer-girl</p>
+                        <a href="https://quiet-trifle-6c997e.netlify.app">
+                            <p class="pr-3 arrow text-2xl" >Summer-girl</p>
+                        </a>
                     </div>
                     <div id="onhoverfb6" class=" w-1/6">
                         <font-awesome-icon icon="fa-solid fa-arrow-right" class="pr-3 arrow " />
