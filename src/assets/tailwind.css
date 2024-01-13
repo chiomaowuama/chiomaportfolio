@@ -251,6 +251,15 @@ input:checked + label .svg.sun{
     transform: translateY(0);
     transition: all 1s ease;
 }
+.smooth4{
+    visibility: hidden;
+}
+
+.smooth-hover4{
+    visibility: visible;
+    animation: smoothhover 2s ease-in ;
+    
+}
 
 /* fifth */
 #onhoverfb5{
@@ -262,6 +271,15 @@ input:checked + label .svg.sun{
     visibility: visible;
     transform: translateY(0);
     transition: all 1s ease;
+}
+.smooth5{
+    visibility: hidden;
+}
+
+.smooth-hover5{
+    visibility: visible;
+    animation: smoothhover 2s ease-in ;
+    
 }
 /* sixth */
 #onhoverfb6{

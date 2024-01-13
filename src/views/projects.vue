@@ -10,6 +10,8 @@ let hover = ref(false);
 let hoverone = ref(false);
 let hovertwo = ref(false);
 let hoverthree = ref(false);
+let hoverfour = ref(false);
+let hoverfive = ref(false);
 console.log(hoverone);
 </script>
 <template>
@@ -21,18 +23,24 @@ console.log(hoverone);
                 <!-- border-l-0 border-r-0 border-b-0  -->
                 <div class=" w-full  lg:w-4/6   pb-1 pt-1 pr-6 flex  justify-end self-end  dark:border-white     ">
                 <div class="  lg:justify-center   hidden  lg:block lg:w-5/6">
-                <div class="slides">
+                <div class="slides border-2 border-green-800">
                     <div  class="slide_one">
-                        <img src="../assets/testrun.jfif" alt="" srcset="" class="smooth rounded-t-3xl w-full   h-full  " :class="{ 'smooth-hover': hover }">
+                        <img src="../assets/pick.png" alt="" srcset="" class="smooth rounded-t-3xl w-full   h-full  " :class="{ 'smooth-hover': hover }">
                     </div>
                     <div  class="slide_two">
-                        <img src="../assets/blackno-signal-tv.gif" alt="" srcset="" class="smooth1 rounded-t-3xl w-5/6 mx-auto h-full" :class="{ 'smooth-hover1': hoverone }">
+                        <img src="../assets/shoestore.png" alt="" srcset="" class="smooth1 rounded-t-3xl  mx-auto h-full" :class="{ 'smooth-hover1': hoverone }">
                     </div>
                     <div  class="slide_three">
-                        <img src="../assets/thrid.jfif" alt="" srcset="" class="smooth2 rounded-t-3xl w-5/6 mx-auto h-full" :class="{ 'smooth-hover2': hovertwo }">
+                        <img src="../assets/dutiful.png" alt="" srcset="" class="smooth2 rounded-t-3xl  mx-auto h-full" :class="{ 'smooth-hover2': hovertwo }">
                     </div>
                     <div  class="slide_four">
-                        <img src="../assets/sectest.jfif" alt="" srcset="" class="smooth3 rounded-t-3xl w-5/6 mx-auto h-full" :class="{ 'smooth-hover3': hoverthree }">
+                        <img src="../assets/foodweb.png" alt="" srcset="" class="smooth3 rounded-t-3xl  mx-auto h-full" :class="{ 'smooth-hover3': hoverthree }">
+                    </div>
+                    <div  class="slide_four">
+                        <img src="../assets/summergirl.png" alt="" srcset="" class="smooth4 rounded-t-3xl  mx-auto h-full" :class="{ 'smooth-hover4': hoverfour }">
+                    </div>
+                    <div  class="slide_four border-2 border-green-900">
+                        <img src="../assets/megastop.png" alt="" srcset="" class="smooth5 rounded-t-3xl partialpics mx-auto h-full" :class="{ 'smooth-hover5': hoverfive }">
                     </div>
                 </div>
                 </div>
@@ -83,7 +91,17 @@ console.log(hoverone);
                         <font-awesome-icon icon="fa-solid fa-arrow-right" class="pr-3 arrow " />
                     </div>  
                </div>
-               <div class="flex flex-row-reverse py-2 ">
+               <div class="flex flex-row-reverse py-2 "  @mouseenter="hoverfour = true" @mouseleave="hoverthree = false" >
+                    <div id="facebookicon6" class=" w-5/6">
+                        <a href="https://quiet-trifle-6c997e.netlify.app">
+                            <p class="pr-3 arrow text-2xl" >Summer-girl</p>
+                        </a>
+                    </div>
+                    <div id="onhoverfb6" class=" w-1/6">
+                        <font-awesome-icon icon="fa-solid fa-arrow-right" class="pr-3 arrow " />
+                    </div>  
+               </div>
+               <div class="flex flex-row-reverse py-2 "  @mouseenter="hoverfive = true" @mouseleave="hoverthree = false">
                     <div id="facebookicon4" class=" w-5/6">
                         <a href="https://fabulous-khapse-1fb714.netlify.app">
                             <p class="pr-3 arrow " >Mega-stop</p>
@@ -101,16 +119,7 @@ console.log(hoverone);
                         <font-awesome-icon icon="fa-solid fa-arrow-right" class="pr-3 arrow " />
                     </div>  
                </div>
-               <div class="flex flex-row-reverse py-2 ">
-                    <div id="facebookicon6" class=" w-5/6">
-                        <a href="https://quiet-trifle-6c997e.netlify.app">
-                            <p class="pr-3 arrow text-2xl" >Summer-girl</p>
-                        </a>
-                    </div>
-                    <div id="onhoverfb6" class=" w-1/6">
-                        <font-awesome-icon icon="fa-solid fa-arrow-right" class="pr-3 arrow " />
-                    </div>  
-               </div>
+              
                 </div>
                 </div>
            
