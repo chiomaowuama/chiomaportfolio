@@ -26,7 +26,7 @@ console.log(hoverone);
         <navigation />
         <!-- border-l-0 border-r-0 border-b-0  -->
         <div
-          class="w-full lg:w-4/6 pb-1 pt-1 pr-6 flex justify-end self-end dark:border-white border-2 border-green-900"
+          class="w-full lg:w-4/6 pb-1 pt-1 pr-6 flex justify-end self-end dark:border-white"
         >
           <div class="lg:justify-center hidden lg:block lg:w-5/6">
             <div class="slides p-5">
@@ -87,7 +87,7 @@ console.log(hoverone);
             </div>
           </div>
           <div
-            class="lg:w-2/6 dark:border-white space-y-1 justify-end md:w-80 font-semibold h-72 md:h-fit border-2 border-green-900"
+            class="lg:w-2/6 dark:border-white space-y-1 justify-end md:w-80 font-semibold h-72 md:h-fit"
           >
             <div class="pl-8">
               <p class="text-3xl font-bold dark:text-white">WORK</p>
