@@ -59,7 +59,7 @@ console.log(hoverone);
               </div>
               <div class="slide_four px-2 xl:px-5">
                 <img
-                  src="../assets/Workit.png"
+                  src="../assets/workit.png"
                   alt=""
                   srcset=""
                   class="smooth3 rounded-t-3xl mx-auto h-full"
