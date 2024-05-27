@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;700&display=swap");
 
 @tailwind base;
 
@@ -7,332 +7,329 @@
 @tailwind utilities;
 
 body {
-    font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
-.movinggif{
-    /* background-image: url("no-signal-tv.gif");
+.movinggif {
+  /* background-image: url("no-signal-tv.gif");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; */
-    opacity: 1;
-
-
+  opacity: 1;
 }
-.display-none{
-    @apply hidden;
+.display-none {
+  @apply hidden;
 }
 /* making the darktoggle btn */
-label{
-    width: 70px;
-    height: 20px;
-    position: relative;
-    display:block;
-    background: #ebebeb;
-    border-radius: 200px;
-    box-shadow: inset 0px 5px 15px rgba(0, 0,0,0.4), inset 0px -5px 15px rgba(255,255,255,0.4);
-    cursor: pointer;
-    transition: transform 10s;
+label {
+  width: 70px;
+  height: 20px;
+  position: relative;
+  display: block;
+  background: #ebebeb;
+  border-radius: 200px;
+  box-shadow: inset 0px 5px 15px rgba(0, 0, 0, 0.4),
+    inset 0px -5px 15px rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  transition: transform 10s;
 }
-label:after{
-    content: "";
-    width:18px;
-    height: 18px;
-    position: absolute;
-    top: 2px;
-    left: 5px;
-    background: linear-gradient(180deg,#ffcc89,#d8860b);
-    border-radius: 180px;
-    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
-    transition: transform 10s;
-   
+label:after {
+  content: "";
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 2px;
+  left: 5px;
+  background: linear-gradient(180deg, #ffcc89, #d8860b);
+  border-radius: 180px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 10s;
 }
-input{
-    width: 0;
-    height:0;
-    visibility: hidden;
+input {
+  width: 0;
+  height: 0;
+  visibility: hidden;
 }
-input:checked + label{
-    background: #242424;
+input:checked + label {
+  background: #242424;
 }
-input:checked + label:after{
-    left:65px;
-    transform: translateX(-100%);
-    background: linear-gradient(180deg,#777,#023f7c);
+input:checked + label:after {
+  left: 65px;
+  transform: translateX(-100%);
+  background: linear-gradient(180deg, #777, #023f7c);
 }
-label:active:after{
-    width:25px;
+label:active:after {
+  width: 25px;
 }
-label .svg{
-    position: absolute;
-    width:13px;
-    top:3px;
-    z-index: 100;
+label .svg {
+  position: absolute;
+  width: 13px;
+  top: 3px;
+  z-index: 100;
 }
-label .svg.sun{
-    left:49px;
-    fill:#fff;
-    transition: 0.3s;
-
+label .svg.sun {
+  left: 49px;
+  fill: #fff;
+  transition: 0.3s;
 }
-label .svg.moon{
-    left:7px;
-    fill:#7e7e7e;
-    transition: 0.3s;
-
+label .svg.moon {
+  left: 7px;
+  fill: #7e7e7e;
+  transition: 0.3s;
 }
-input:checked + label .svg.moon{
-    fill:#7e7e7e;
+input:checked + label .svg.moon {
+  fill: #7e7e7e;
 }
-input:checked + label .svg.sun{
-    fill:#fff;
+input:checked + label .svg.sun {
+  fill: #fff;
 }
 /* the background */
-.fullscreen{
-    background-image: url("https://raw.githubusercontent.com/PrantoshB/Prantosh-Biswas/main/src/assets/effect.png");
-    background-size:auto;
-    
-    animation: static 3s steps(4,end) infinite;
+.fullscreen {
+  background-image: url("https://raw.githubusercontent.com/PrantoshB/Prantosh-Biswas/main/src/assets/effect.png");
+  background-size: auto;
+
+  animation: static 3s steps(4, end) infinite;
 }
-@keyframes static{
-    0%{
-        background-position: 0% 0%;
-    }
-    20%{
-        background-position: 25% 15%;
-    }
-    40%{
-        background-position: 50% 70%;
-    }
-    60%{
-        background-position: 60% 45%;
-    }
-    80%{
-        background-position: 85% 15%;
-    }
-    100%{
-        background-position: 30% 29%;
-    }
+@keyframes static {
+  0% {
+    background-position: 0% 0%;
+  }
+  20% {
+    background-position: 25% 15%;
+  }
+  40% {
+    background-position: 50% 70%;
+  }
+  60% {
+    background-position: 60% 45%;
+  }
+  80% {
+    background-position: 85% 15%;
+  }
+  100% {
+    background-position: 30% 29%;
+  }
 }
-.fullscreen2{
-    background-image: url("https://raw.githubusercontent.com/PrantoshB/Prantosh-Biswas/main/src/assets/effect.png");
-    background-size:auto;
-    animation: static 3s steps(2,end) infinite;
+.fullscreen2 {
+  background-image: url("https://raw.githubusercontent.com/PrantoshB/Prantosh-Biswas/main/src/assets/effect.png");
+  background-size: auto;
+  animation: static 3s steps(2, end) infinite;
 }
-@keyframes static{
-    0%{
-        background-position: 0% 0%;
-    }
-    20%{
-        background-position: 25% 15%;
-    }
-    40%{
-        background-position: 50% 60%;
-    }
-    60%{
-        background-position: 30% 45%;
-    }
-    80%{
-        background-position: 15% 85%;
-    }
-    100%{
-        background-position: 30% 29%;
-    }
+@keyframes static {
+  0% {
+    background-position: 0% 0%;
+  }
+  20% {
+    background-position: 25% 15%;
+  }
+  40% {
+    background-position: 50% 60%;
+  }
+  60% {
+    background-position: 30% 45%;
+  }
+  80% {
+    background-position: 15% 85%;
+  }
+  100% {
+    background-position: 30% 29%;
+  }
 }
 /* animation slide in */
-#onhoverfb{
-    visibility: hidden;
-    transform: translateX(-15px);
+#onhoverfb {
+  visibility: hidden;
+  transform: translateX(-15px);
 }
 
-#facebookicon:hover ~ #onhoverfb{
-    visibility: visible;
-    transform: translateY(0);
-    transition: all 2s ease;
+#facebookicon:hover ~ #onhoverfb {
+  visibility: visible;
+  transform: translateY(0);
+  transition: all 2s ease;
 }
 /* .smooth{
     visibility: hidden;
    
 } */
 
-
-@keyframes smoothhover{
-    0%{ opacity: 0;}
-    100%{opacity: 1;}
+@keyframes smoothhover {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-.smooth{
-    visibility: hidden;
+.smooth {
+  visibility: hidden;
 }
-.smooth-hover{
-    visibility: visible;
-    animation: smoothhover 2s ease-in ;
-    
+.smooth-hover {
+  visibility: visible;
+  animation: smoothhover 2s ease-in;
 }
-.slides{
-    width:100%;
-    height: 100%;
-    position: relative;
-
+.slides {
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
-.slide_one, .slide_two, .slide_three, .slide_four, .slide_five, .slide_six{
-    width:100%;
-    height:100%;
-    position: absolute;
-    top:0;
-    left:0;
+.slide_one,
+.slide_two,
+.slide_three,
+.slide_four,
+.slide_five,
+.slide_six {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 /* second one */
-#onhoverfb1{
-   display: none;
-    transform: translateX(-15px);
+#onhoverfb1 {
+  display: none;
+  transform: translateX(-15px);
 }
 
-#facebookicon1:hover ~ #onhoverfb1{
-    display:block;
-    transform: translateY(0);
-    transition: all 1s ease;
+#facebookicon1:hover ~ #onhoverfb1 {
+  display: block;
+  transform: translateY(0);
+  transition: all 1s ease;
 }
-.smooth1{
-    visibility: hidden;
+.smooth1 {
+  visibility: hidden;
 }
 
-.smooth-hover1{
-    visibility: visible;
-    animation: smoothhover 2s ease-in ;
-    
+.smooth-hover1 {
+  visibility: visible;
+  animation: smoothhover 2s ease-in;
 }
 /* two */
-#onhoverfb2{
-    visibility: hidden;
-    transform: translateX(-15px);
+#onhoverfb2 {
+  visibility: hidden;
+  transform: translateX(-15px);
 }
 
-#facebookicon2:hover ~ #onhoverfb2{
-    visibility: visible;
-    transform: translateY(0);
-    transition: all 1s ease;
+#facebookicon2:hover ~ #onhoverfb2 {
+  visibility: visible;
+  transform: translateY(0);
+  transition: all 1s ease;
 }
-.smooth2{
-    visibility: hidden;
+.smooth2 {
+  visibility: hidden;
 }
 
-.smooth-hover2{
-    visibility: visible;
-    animation: smoothhover 2s ease-in ;
-    
+.smooth-hover2 {
+  visibility: visible;
+  animation: smoothhover 2s ease-in;
 }
 /* third */
-#onhoverfb3{
-    visibility: hidden;
-    transform: translateX(-15px);
+#onhoverfb3 {
+  visibility: hidden;
+  transform: translateX(-15px);
 }
 
-#facebookicon3:hover ~ #onhoverfb3{
-    visibility: visible;
-    transform: translateY(0);
-    transition: all 1s ease;
+#facebookicon3:hover ~ #onhoverfb3 {
+  visibility: visible;
+  transform: translateY(0);
+  transition: all 1s ease;
 }
-.smooth3{
-    visibility: hidden;
+.smooth3 {
+  visibility: hidden;
 }
 
-.smooth-hover3{
-    visibility: visible;
-    animation: smoothhover 2s ease-in ;
-    
+.smooth-hover3 {
+  visibility: visible;
+  animation: smoothhover 2s ease-in;
 }
 /* fourth */
-#onhoverfb4{
-    visibility: hidden;
-    transform: translateX(-15px);
+#onhoverfb4 {
+  visibility: hidden;
+  transform: translateX(-15px);
 }
 
-#facebookicon4:hover ~ #onhoverfb4{
-    visibility: visible;
-    transform: translateY(0);
-    transition: all 1s ease;
+#facebookicon4:hover ~ #onhoverfb4 {
+  visibility: visible;
+  transform: translateY(0);
+  transition: all 1s ease;
 }
-.smooth4{
-    visibility: hidden;
+.smooth4 {
+  visibility: hidden;
 }
 
-.smooth-hover4{
-    visibility: visible;
-    animation: smoothhover 2s ease-in ;
-    
+.smooth-hover4 {
+  visibility: visible;
+  animation: smoothhover 2s ease-in;
 }
 
 /* fifth */
-#onhoverfb5{
-    visibility: hidden;
-    transform: translateX(-15px);
+#onhoverfb5 {
+  visibility: hidden;
+  transform: translateX(-15px);
 }
 
-#facebookicon5:hover ~ #onhoverfb5{
-    visibility: visible;
-    transform: translateY(0);
-    transition: all 1s ease;
+#facebookicon5:hover ~ #onhoverfb5 {
+  visibility: visible;
+  transform: translateY(0);
+  transition: all 1s ease;
 }
-.smooth5{
-    visibility: hidden;
+.smooth5 {
+  visibility: hidden;
 }
 
-.smooth-hover5{
-    visibility: visible;
-    animation: smoothhover 2s ease-in ;
-    
+.smooth-hover5 {
+  visibility: visible;
+  animation: smoothhover 2s ease-in;
 }
 /* sixth */
-#onhoverfb6{
-    visibility: hidden;
-    transform: translateX(-15px);
+#onhoverfb6 {
+  visibility: hidden;
+  transform: translateX(-15px);
 }
 
-#facebookicon6:hover ~ #onhoverfb6{
-    visibility: visible;
-    transform: translateY(0);
-    transition: all 1s ease;
+#facebookicon6:hover ~ #onhoverfb6 {
+  visibility: visible;
+  transform: translateY(0);
+  transition: all 1s ease;
 }
 /* the seventh */
-#onhoverfb7{
-    visibility: hidden;
-    transform: translateX(15px);
+#onhoverfb7 {
+  visibility: hidden;
+  transform: translateX(15px);
 }
 
-#facebookicon7:hover ~ #onhoverfb7{
-    visibility: visible;
-    transform: translateY(0);
-    transition: all 1s ease;
+#facebookicon7:hover ~ #onhoverfb7 {
+  visibility: visible;
+  transform: translateY(0);
+  transition: all 1s ease;
 }
 /* the ninth */
-#onhoverfb9{
-    visibility: hidden;
-    transform: translateY(-10px);
+#onhoverfb9 {
+  visibility: hidden;
+  transform: translateY(-10px);
 }
 
-#facebookicon9:hover ~ #onhoverfb9{
-    visibility: visible;
-    transform: translateY(0);
-    transition: all 1s ease;
+#facebookicon9:hover ~ #onhoverfb9 {
+  visibility: visible;
+  transform: translateY(0);
+  transition: all 1s ease;
 }
 /* transitions for images */
 /* spining image */
-.spinimg{
-    /* position: absolute; */
-    /* top:50%; */
-    /* left:50%; */
-    /* transform: translate(-50%, 50%); */
-    animation: myfirst 20s infinite linear;
+.spinimg {
+  /* position: absolute; */
+  /* top:50%; */
+  /* left:50%; */
+  /* transform: translate(-50%, 50%); */
+  animation: myfirst 20s infinite linear;
 }
-.spinimg:hover{
-    animation:pause;
+.spinimg:hover {
+  animation: pause;
 }
-@keyframes myfirst{
-    0%{
-        transform: translate(0%, 0%) rotate(0deg);
-    }
-    100%{
-        transform: translate(0%, 0%) rotate(360deg);
-    }
+@keyframes myfirst {
+  0% {
+    transform: translate(0%, 0%) rotate(0deg);
+  }
+  100% {
+    transform: translate(0%, 0%) rotate(360deg);
+  }
 }
 /* @keyframes myfirst{
     0%{
@@ -343,14 +340,11 @@ input:checked + label .svg.sun{
     }
 } */
 /* contactus page */
-.grow{
-    transition: 0.3 ease;
-   
+.grow {
+  transition: 0.3 ease;
 }
-.grow:hover{
-
-    transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
+.grow:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
 }
-

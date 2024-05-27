@@ -26,7 +26,7 @@ console.log(hoverone);
         <navigation />
         <!-- border-l-0 border-r-0 border-b-0  -->
         <div
-          class="w-full lg:w-4/6 pb-1 pt-1 pr-6 flex justify-end self-end dark:border-white"
+          class="w-full lg:w-4/6 pb-1 pt-1 pr-6 flex justify-end self-end dark:border-white border-2 border-green-900"
         >
           <div class="lg:justify-center hidden lg:block lg:w-5/6">
             <div class="slides p-5">
@@ -59,7 +59,7 @@ console.log(hoverone);
               </div>
               <div class="slide_four px-2 xl:px-5">
                 <img
-                  src="../assets/foodweb.png"
+                  src="../assets/Workit.png"
                   alt=""
                   srcset=""
                   class="smooth3 rounded-t-3xl mx-auto h-full"
@@ -87,13 +87,13 @@ console.log(hoverone);
             </div>
           </div>
           <div
-            class="lg:w-2/6 dark:border-white space-y-1 justify-end md:w-80 font-semibold h-72 md:h-fit"
+            class="lg:w-2/6 dark:border-white space-y-1 justify-end md:w-80 font-semibold h-72 md:h-fit border-2 border-green-900"
           >
             <div class="pl-8">
               <p class="text-3xl font-bold dark:text-white">WORK</p>
             </div>
             <div
-              class="border-2 border-black border-r-0 border-l-0 border-b-0 lg:w-full lg:h-64 cursor-pointer dark:border-white w-full md:w-full md:border-black space-y-3 font-semibold h-60 text-2xl overflow-y-scroll scrollbar-thin dark:text-white"
+              class="border-2 border-black border-r-0 border-l-0 border-b-0 lg:w-full lg:h-64 cursor-pointer dark:border-white w-full md:w-full md:border-black space-y-3 font-semibold h-60 text-2xl overflow-y-scroll scrollbar-none lg:scrollbar-none dark:text-white"
             >
               <div
                 class="flex flex-row-reverse py-2"
@@ -153,8 +153,8 @@ console.log(hoverone);
                 @mouseleave="hoverthree = false"
               >
                 <div id="facebookicon3" class="w-5/6">
-                  <a href="https://foodappweb.netlify.app">
-                    <p class="pr-3 arrow">Food-web</p>
+                  <a href="https://workitapp.netlify.app">
+                    <p class="pr-3 arrow">Work-It</p>
                   </a>
                 </div>
                 <div id="onhoverfb3" class="w-1/6">
